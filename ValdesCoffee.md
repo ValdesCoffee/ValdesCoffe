@@ -60,8 +60,7 @@ Tools used in professional development workflows
 
 🧩 Philosophy 
 
-"Si funciona sirve"
-
+"Si funciona sirve", "If it works, IT'S THAT IT DONE"
 I prefer experimenting with projects, solving problems and understanding how things work under the hood.
 
 🤝 Collaboration
