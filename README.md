@@ -58,9 +58,9 @@ Better software architecture practices
 
 Tools used in professional development workflows
 
-🧩 Philosophy
+🧩 Philosophy 
 
-Learn by building.
+"Si funciona sirve"
 
 I prefer experimenting with projects, solving problems and understanding how things work under the hood.
 
