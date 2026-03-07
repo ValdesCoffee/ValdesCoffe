@@ -1,11 +1,11 @@
-👋 Hi, I'm Auri Valdes
+### Hi, I'm Auri Valdes
 
 Software enthusiast interested in systems, low-level programming and hardware interaction.
 I enjoy building things that connect code with real-world devices.
 
 Currently learning and experimenting with different technologies while developing my programming skills.
 
-💻 Tech Stack
+##💻 Tech Stack
 
 Languages
 
