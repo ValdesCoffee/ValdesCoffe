@@ -79,3 +79,53 @@ Even though the requirements may vary in complexity, the program successfully re
 
 ૮ ˶ᵔ ᵕ ᵔ˶ ა  
 *A small console project, but a solid step toward learning data management and file handling in Python.*
+
+```python
+cursos = [
+    "Facultad de ingeniería",
+    "Facultad de idiomas",
+    "Facultad de ciencias juridicas",
+    "Facultad de ciencias de la salud"
+]
+
+estudiantes = []
+
+def interactuar(estudiante):
+    if len(estudiante.split(" - ")) == 3:
+        print("Admit.ido")
+        estudiantes.append(estudiante)
+        letra = input("Filtrar por inicial: ")
+        if estudiante.startswith(letra):
+            print(estudiante)
+    else:
+        print("Cantidad de valores incorrecta, inténtelo nuevamente")
+
+def mostrar():
+    for i in estudiantes:
+        print(i)
+
+while True:
+    try:
+        opcion = int(input("Seleccione un curso (1-4): "))
+        if opcion <= 0 or opcion > 4:
+            raise IndexError
+        break
+    except:
+        print("Opción inválida")
+
+if 1 <= opcion <= 4:
+    print(cursos[opcion-1])
+
+while True:
+    interactuar(input("Ingrese nombre - curso - carrera del estudiante: "))
+    boton = input("¿Seguir registrando? (s/n): ").lower()
+    if boton == 'n':
+        mostrar()
+        break
+f = open("clientes.csv", "w")
+
+for e in estudiantes:
+    f.write(e + "\n")
+
+f.close()
+```
